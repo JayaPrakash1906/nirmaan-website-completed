@@ -54,10 +54,10 @@ function HomeSixthPage() {
         })} */}
         
         <SixScreenContent
-          title="Richa Agrawal, Associate Professor at DoMS, IIT Madras"
+          title="Veezhinathan Kamakoti Ph.D,Director of the IIT Madras"
           //img={''}
           //alt="event #1"
-          text="Entrepreneurship is not necessarily a skill. It’s a mindset and it is the understanding that even if the first idea that you took fails, it's not the end of your journey as an entrepreneur. Nirmaan prepares them for the market better by giving those inputs to them. As they join their mind in terms of identifying your customer and understanding their needs. Modifying your product, you know, and testing it out, iterating it so that benefits them"
+          text="It gives me great joy to note that the OIE under the guidance of Prabhu Rajagopal is breaking new ground through programmes such as Pratham and Akshar that provide a sandbox environment for students to test out entrepreneurship. I am also very enthused to note that we have as many as a hundred teams working on the entrepreneurial journey as of today, cutting across important themes such as energy, mobility, sustainability, drones, cyber security, education and financial technologies. About 16 of them have also signed up for formal pre-incubation under Nirmaan."
         />
 
         <div className="linear-gradient-sixth mobile-contact">
