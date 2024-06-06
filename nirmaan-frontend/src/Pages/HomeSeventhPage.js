@@ -87,7 +87,7 @@ function HomeSeventhPage() {
       <div className="gap"></div>
       <div className="links">
         <ul>
-          <li>
+        { /* <li>
             <a href="/Teams" style={{ color: "black" }}>
               Teams
             </a>
@@ -96,7 +96,7 @@ function HomeSeventhPage() {
             <a href="/about-us" style={{ color: "black" }}>
               About
             </a>
-          </li>
+          </li>*/}
           <li>
             <a href="/work-with-start-ups" style={{ color: "black" }}>
               Startups
