@@ -96,7 +96,7 @@ function HomeSeventhPage() {
             <a href="/about-us" style={{ color: "black" }}>
               About
             </a>
-          </li>*/}
+          // </li>* cha */} 
           <li>
             <a href="/work-with-start-ups" style={{ color: "black" }}>
               Startups
