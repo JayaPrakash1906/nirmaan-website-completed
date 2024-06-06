@@ -1,0 +1,504 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+}
+
+:root {
+  --min-font-size: 20px;
+  --max-font-size: 32px;
+}
+
+.full-page-container {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(143, 255, 149, 0),
+      rgba(102, 187, 106, 0) 40%,
+      rgba(102, 187, 106, 1)
+    ),
+    url("../images//HOME-BACKGROUND.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.horizontal-scroll-container {
+  display: flex;
+  white-space: nowrap;
+  position: relative;
+}
+
+.homeFirstPage {
+  width: 100vw;
+  height: 100vh;
+  /* first-page-div */
+  position: relative;
+}
+
+.vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 5px;
+  position: absolute;
+  font-family: "GT America", sans-serif;
+  height: 4vw;
+  width: 100vh;
+  text-align: center;
+  background-color: #d9d9d9;
+  right: 0;
+  top: 0;
+  transform-origin: top right;
+  transform: rotate(-90deg) translateY(-100%);
+  font-size: calc(1.3vw + 1rem);
+  vertical-align: middle;
+  text-align: center;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+  font-weight: 900;
+  z-index: 1;
+}
+
+.nirmaan-logo {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 2.313rem;
+  width: 95%;
+}
+
+.this-is-img img {
+  text-align: right;
+  margin-left: 8.6vw;
+  margin-top: 9.6vh;
+  max-width: 24vw;
+  width: 80%;
+}
+
+.subtitle-styling-fp {
+  white-space: pre-line;
+}
+
+.sub-heading-first {
+  font-family: "GT America", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.subtitle-content {
+  margin-top: 8vh;
+  box-sizing: border-box;
+  font-family: "GT America", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 29px;
+  white-space: pre-line;
+  max-width: 16vw;
+}
+
+.home-center-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.logo img {
+  margin-left: 5vw;
+  max-width: 24.7vw;
+  width: 100%;
+}
+
+.text {
+  color: #ffffff;
+  font-family: "GT America";
+}
+
+.subtitle {
+  width: 20%;
+  margin-left: 5.7vw;
+}
+
+.iitmlogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding-left: 2vw;
+}
+.iitmlogo img {
+  width: 100%;
+}
+.home-laptop img {
+  max-width: 338px;
+}
+
+/* social medial icons */
+.social-icons {
+  list-style-type: none;
+  display: flex;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.social-icons-first {
+  margin-top: 10.5vh;
+  margin-left: 6vw;
+}
+
+.social-icons li {
+  margin-right: 3.2rem;
+}
+
+/* footer part  */
+.rect {
+  margin-top: 3rem;
+  position: relative;
+}
+
+.vect {
+  position: relative;
+  top: 4rem;
+  left: 71vw;
+}
+
+.rect img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 77.5vw;
+}
+
+.inner-div-fp {
+  position: absolute;
+  bottom: 0.5rem;
+  width: 66%;
+  background: linear-gradient(270deg, #000000 3%, rgba(0, 0, 0, 0.5) 100%);
+}
+.inner-list-div__first {
+  width: 18%;
+}
+.inner-list-div__second {
+  width: 18%;
+}
+.inner-list-div__third {
+  width: 12%;
+}
+.inner-list-div__fourth {
+  width: 15%;
+}
+.inner-list-div__fifth {
+  background-image: url("../images/fifth-item-shadow.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 28.8%;
+  padding: 2rem 4rem;
+}
+
+.inner-list-div {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: "GT America", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-left: 1rem;
+  min-width: 1900px;
+  padding: 40px 20% 45px 1rem;
+}
+
+.inner-list-div div {
+  /* width: 23rem; */
+  margin-right: 2rem 4rem;
+  white-space: pre-line;
+}
+
+#last-list {
+  font-family: "GT America", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-right: 1rem;
+}
+#last-list .item-align-right {
+  text-align: right;
+  display: block;
+}
+
+.apply {
+  position: absolute;
+  box-sizing: border-box;
+  top: 1.3rem;
+  left: calc(100% + 1.2rem);
+  text-align: center;
+  background-color: #fff;
+  font-size: calc(1rem + 0.84vw);
+  padding: 25px 45px 25px 30px;
+  max-width: 393px;
+  width: 100%;
+  font-style: italic;
+  font-weight: bold;
+  color: #66bb6a;
+  border-bottom-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease;
+}
+
+.first-page-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.apply:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.inner-div-fp__wrapper {
+  overflow: auto;
+}
+
+.inner-div-fp__wrapper::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+  height: 3px;
+}
+
+.inner-div-fp__wrapper::-webkit-scrollbar-thumb {
+  background-color: #ddd; /* Set the color of the thumb */
+  border-radius: 5px; /* Round the edges of the thumb */
+}
+
+.home-desctop {
+  display: none;
+}
+
+.mobile-this-is {
+  display: none;
+}
+
+@media (min-width: 1441px) {
+  .home-desctop {
+    display: block;
+  }
+  .home-laptop {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  /* .inner-div-fp__wrapper .apply{
+    font-size: 1.2rem !important;
+  } */
+  .nirmaan-logo {
+    justify-content: space-between;
+  }
+  .inner-list-div {
+    font-size: 16px;
+    padding: 20px 20% 25px 1rem;
+    animation: moveRightToLeft 5s linear infinite,
+      moveLeftToRight 10s linear infinite;
+  }
+  .inner-list-div__fifth {
+    padding: 1rem 2rem;
+  }
+  .subtitle-content {
+    max-width: 16vw;
+    margin-top: 3vw;
+    font-size: 16px;
+  }
+  .subtitle {
+    width: 25%;
+  }
+
+  .home-center-title {
+    text-align: left;
+  }
+  .social-icons-first {
+    margin-top: 3.5vh;
+    margin-left: 6vw;
+  }
+  .logo img {
+    max-width: 23.7vw;
+  }
+  .this-is-img img {
+    margin-left: 4vw;
+  }
+  .apply {
+    max-width: 280px;
+    font-size: 22px;
+    padding: 1rem;
+  }
+  .iitmlogo {
+    padding-left: 0;
+  }
+  .iitmlogo img {
+    margin-left: -10vw;
+  }
+  .home-center-title {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .logo img,
+  .text.subtitle {
+    margin-left: 0;
+  }
+  .nirmaan-logo {
+    width: 100%;
+  }
+  .subtitle {
+    width: 33%;
+  }
+  .subtitle-content {
+    max-width: 25vw;
+  }
+  .iitmlogo img {
+    margin-left: -5vw;
+    max-width: 20vw;
+  }
+
+  .social-icons-first {
+    margin-top: 7.5vh;
+  }
+}
+
+@media (max-width: 998px) {
+  .mobile-this-is {
+    display: block;
+  }
+  .nirmaan-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .this-is-img {
+    /* display: none; */
+  }
+
+  .logo img {
+    max-width: 42vw;
+  }
+  .vertical,
+  .vect {
+    display: none;
+  }
+  .iitmlogo img {
+    margin-left: 0;
+    width: 41vw;
+  }
+  .text.subtitle {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .iitmlogo.home-desctop {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .homepage-mobile {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+  .this-is-img {
+    display: none;
+  }
+  .homepage-mobile .this-is-img {
+    display: block;
+  }
+  .this-is-img img,
+  .home-center-title {
+    margin: 0;
+  }
+  .this-is-img img {
+    min-width: 170px;
+  }
+  .subtitle-content {
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .iitmlogo.home-laptop {
+    display: none;
+  }
+  .inner-div-fp,
+  .first-page-footer {
+    display: none;
+  }
+  .social-icons {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .social-icons-first,
+  .social-icons li {
+    margin: 0;
+  }
+  .text.subtitle {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mobile-apply {
+    display: block;
+    position: static;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .homeFirstPage {
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-center-title {
+    font-size: 24px;
+  }
+  .social-icons img {
+    transform: scale(0.7);
+  }
+
+  .social-icons {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(40%);
+  }
+  100% {
+    transform: translateX(80%);
+  }
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(80%);
+  }
+  100% {
+    transform: translateX(40%);
+  }
+}

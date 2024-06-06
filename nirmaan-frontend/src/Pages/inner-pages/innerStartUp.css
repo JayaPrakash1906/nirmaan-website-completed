@@ -1,0 +1,366 @@
+.is-sub-main {
+  display: flex;
+  column-gap: 80px;
+}
+
+.is-left-first-heading {
+  max-width: 741px;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(121, 216, 127, 1);
+  border-radius: 0px 0px 75px 0px;
+  font-family: "GT America";
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.is-left-second-sub-heading {
+  padding-left: 230px;
+  padding-top: 1.5rem;
+}
+
+.is-left-first-sub-heading {
+  /* width: 741px; */
+  height: 53px;
+  background-color: rgba(102, 187, 106, 1);
+  font-family: "GT America";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0em;
+  box-sizing: border-box;
+  padding-left: 230px;
+  padding-top: 0.5rem;
+}
+
+.is-sub-right {
+  position: relative;
+  min-width: 500px;
+}
+.is-sub-left {
+  display: flex;
+  flex-direction: column;
+}
+.is-content {
+  margin-left: 220px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  max-width: 782px;
+  height: 204px;
+  font-family: "GT America";
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.is-member-main {
+  margin-top: auto;
+  max-width: 719px;
+  width: 100%;
+  height: 370px;
+  border-radius: 0px 0px 110px 0px;
+  background-color: rgba(121, 216, 127, 1);
+}
+
+.is-member-heading {
+  box-sizing: border-box;
+  height: 68px;
+  background-color: rgba(102, 187, 106, 1);
+  font-family: "GT America";
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0em;
+  padding-left: 220px;
+  padding-top: 0.9rem;
+}
+
+.is-name-wrapper {
+  margin-left: 220px;
+  margin-top: 1.5rem;
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.is-members-name {
+  margin-top: 2rem;
+}
+
+.is-name {
+  font-family: "GT America";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.is-image {
+  width: 100%;
+  height: auto;
+}
+
+.funds-raised {
+  box-sizing: border-box;
+  position: absolute;
+  margin-top: -12rem;
+  margin-left: -10rem;
+  width: 402px;
+  height: 120px;
+  border-radius: 0 75px 0 75px;
+  background-color: rgba(121, 216, 127, 1);
+}
+
+.inr {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.funds-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding-left: 2rem;
+}
+
+.name-startup {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-50%);
+  width: 308px;
+  height: 120px;
+  border-bottom-left-radius: 75px;
+  background-color: rgba(121, 216, 127, 1);
+}
+
+.startup-title-is {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.start-main-name {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.contact-section {
+  display: flex;
+  margin-top: 10rem;
+  margin-bottom: 7rem;
+}
+
+.contact-is {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 719px;
+  width: 100%;
+  height: 150px;
+  border-radius: 0px 0px 75px 0px;
+  background-color: rgba(121, 216, 127, 1);
+  font-family: "GT America", sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  box-sizing: border-box;
+}
+.contact-is::before{
+  content:"";
+  position:absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(102, 187, 106, 1);
+  width: 100%;
+  height: 25px;
+}
+
+.contact-us-is {
+  padding-left: 220px;
+  padding-top: 2rem;
+}
+
+.contact-green {
+  width: 100%;
+  height: 25px;
+  background-color: rgba(102, 187, 106, 1);
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1300px;
+  width: 100%;
+  height: 150px;
+  background-color: rgba(217, 217, 217, 0.25);
+}
+
+.contact-div-2,
+.contact-div-3 {
+  box-sizing: border-box;
+  padding-top: 3.5rem;
+  margin-left: -2rem;
+}
+
+.mail-id {
+  margin-left: 2rem;
+  margin-top: 3.5rem;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.contact-div-1 {
+  display: flex;
+}
+
+.mail-img {
+  margin-top: 3.5rem;
+}
+
+.contact-div-2 a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.gallery-comp {
+  margin: 7rem 0 7rem 5rem;
+  max-width: 1920px;
+  margin: 7rem auto 7rem;
+  padding: 0 120px 0 55px;
+}
+
+#fame-title{
+}
+
+@media (max-width: 1570px) {
+  .funds-raised {
+    margin-top: -4rem;
+    margin-left: -5rem;
+    width: 330px;
+    height: 110px;
+  }
+
+  .name-startup {
+    width: 265px;
+    height: 100px;
+  }
+}
+
+@media (max-width:1440px){
+  .contact-section{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .is-content{
+    height: auto;
+    margin: 0;
+    padding: 4vw;
+  }
+  .funds-raised{
+    margin-left: -1px;
+  }
+  .is-member-heading{
+    padding: 1rem;
+    text-align: center;
+    height: auto;
+  }
+  .is-left-second-sub-heading{
+    padding-left: 0;
+    text-align: center;
+  }
+  .is-member-main{
+    height: auto;
+  }
+  .is-members-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem 4rem 1rem;
+  }
+  .is-name-wrapper{
+    margin: 0;
+  }
+  .gallery-comp{
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width:998px){
+  .is-sub-main{
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+  }
+  .is-sub-right{
+    max-width: 80%;
+  }
+  .contact-is{
+    max-width: 100%;
+    font-size: 48px;
+  }
+  .blog-titles{
+    padding: 2rem;
+  }
+
+}
+
+@media (max-width:768px){
+  .contact-us-is{
+    padding-left: 0;
+  }
+}
+
+@media (max-width:576px){
+  .contact-details{
+    padding: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .contact-div-2, .contact-div-3{
+    margin-left: 0;
+  }
+  .is-sub-right{
+    min-width: 300px;
+  }
+  .is-left-second-sub-heading,
+  .contact-is{
+    font-size: 35px;
+  }
+}

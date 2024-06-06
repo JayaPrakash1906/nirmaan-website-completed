@@ -1,0 +1,280 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.HomeSecondPage {
+  width: 100vw;
+  height: 100vh;
+  flex: 0 0 auto;
+}
+
+.secondPage-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url("../images/Vector2.png");
+  background-repeat: no-repeat;
+  background-position: 51% 32px;
+  background-color: #d9d9d9;
+}
+
+.half-second-page {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 8.35vw;
+  gap: 3rem;
+  background-image: url("../images/second-section-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.whoWeAre-div {
+  display: flex;
+  margin-top: 61px;
+  margin-left: 30px;
+  gap: 2rem;
+}
+
+.who-heading {
+  margin-left: 55px;
+  margin-top: 15px;
+}
+.who-heading h1 {
+  font-size: 100px;
+  font-weight: 790;
+  line-height: 0.8;
+  color: #000;
+}
+
+.meetOurTeam-div {
+  display: flex;
+  align-self: end;
+}
+
+.team-heading {
+  margin-top: 17rem;
+  margin-left: -3rem;
+  width: 321px;
+  height: 134px;
+  border-radius: 0px 40.5px 0px 40.5px;
+  text-align: center;
+  background-color: #66bb6a;
+  color: #fff;
+  font-family: "GT America", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+  white-space: pre-line;
+  transition: transform 0.3s ease;
+
+}
+.team-heading:hover,
+.projects:hover 
+{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.vect2-logo {
+  position: absolute;
+  margin-top: -3rem;
+}
+
+.vect2-logo {
+  margin-left: 12rem;
+}
+
+.about-nirmaan {
+  margin-top: 3rem;
+  box-sizing: border-box;
+  font-family: "GT America";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #ffffff;
+  max-width: 1028px;
+  width: 100%;
+  padding: 42px 120px 45px 90px;
+  border-radius: 0px 191.5px 0px 0px;
+  white-space: pre-line;
+}
+
+.about-nirman-second-content {
+  margin-top: 1rem;
+}
+
+.projects {
+  text-align: center;
+  max-width: 40rem;
+  height: 4rem;
+  font-size: 3rem;
+  background-color: #66bb6a;
+  border-bottom-left-radius: 4rem;
+  margin-left: auto;
+  font-style: italic;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease;
+
+}
+.vertical.green {
+  background-color: #8fff95;
+}
+.whoWeAre__content-wrapper {
+  display: inline-block;
+}
+
+/* carousel  */
+.carousel-secondPage {
+  /* margin-left: 12rem; */
+}
+
+.nirmaanlogo-second {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  .who-heading h1 {
+    font-size: 114px;
+  }
+  .who-heading {
+    /* max-height: 250px; */
+  }
+  .who-heading img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .whoWeAre-div {
+    margin-top: 2rem;
+  }
+
+  .team-heading {
+    margin-top: 9rem;
+    font-size: 33px;
+    max-width: 208px;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #555555;
+  }
+  .about-nirmaan {
+    font-size: 16px;
+    padding: 24px 100px 30px 65px;
+  }
+  .secondPage-container {
+    background-size: 225px 301px;
+    background-position: 58% 1rem;
+  }
+  .half-second-page {
+    padding-right: 6.35vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .who-heading {
+    /* max-height: 141px; */
+  }
+  .who-heading {
+    margin: 0;
+  }
+
+  .who-heading h1 {
+    font-size: 70px;
+  }
+  .team-heading {
+    margin: 0;
+  }
+  .half-second-page {
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .about-nirmaan {
+    padding: 15px 96px 15px 29px;
+    margin-top: 1rem;
+  }
+  .vertical-carousel-container {
+    height: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .full-page-container {
+    height: auto;
+  }
+  .HomeSecondPage,
+  .secondPage-container {
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .nirmaanlogo-second {
+    display: block;
+    position: absolute;
+    max-width: 112px;
+    right: 3rem;
+    top: 0;
+  }
+  .projects-breacker {
+    display: block;
+  }
+  .projects {
+    height: auto;
+  }
+  .full-page-container {
+    height: auto;
+  }
+  .whoWeAre-div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .team-heading {
+    margin-top: 0;
+    font-size: 24px;
+    height: auto;
+    max-width: 180px;
+    padding: 1rem;
+    line-height: 1;
+  }
+  .who-heading {
+    margin: 0;
+  }
+  .who-heading h1 {
+    font-size: 45px;
+  }
+
+  .meetOurTeam-div {
+    align-self: start;
+  }
+  .projects {
+    font-size: 35px;
+    position: relative;
+    text-align: left;
+    padding-left: 4rem;
+    max-width: 314px;
+  }
+  .projects svg {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+  }
+  .half-second-page {
+    padding-bottom: 2rem;
+  }
+}

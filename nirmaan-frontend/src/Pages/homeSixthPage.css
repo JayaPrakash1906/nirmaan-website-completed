@@ -1,0 +1,316 @@
+.HomeSixthPage {
+  width: 100vw;
+  height: 100vh;
+  flex: 0 0 auto;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(120, 120, 120, 0.2));
+
+}
+
+.sixth-page-container {
+  display: flex;
+  width: 100vw;
+  /* height: 100vh;
+  overflow: hidden; */
+  background-color: #fff;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(120, 120, 120, 0.2));
+  justify-content: space-between;
+  padding: 30px 30px 0 90px;
+}
+
+.sixthpage-first-inner-div {
+  position: relative;
+}
+
+.they-talking img {
+  display: flex;
+  flex-direction: column;
+}
+
+.sixth-main-div {
+  position: relative;
+}
+
+.sub-div {
+  position: relative;
+  /* margin-top: -20.5rem; */
+  max-width: 902px;
+  width: 100%;
+  height: 376px;
+  margin-left: 86px;
+  border-radius: 0px 200px 0px 204.5px;
+  background-color: white;
+  white-space: pre-line;
+  padding: 11.7vw 5vw 0;
+  box-sizing: border-box;
+  font-family: "GT America", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.img {
+  position: absolute;
+  margin-top: -20rem;
+  width: 36vw;
+}
+
+.sixth-heading {
+  /* position: absolute; */
+  /* margin-top: -22.5rem; */
+  margin-left: 10rem;
+  font-family: "GT America", sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.sixth-main-div-2 {
+  /* margin-top: 23rem; */
+}
+
+.sixthpage-second-inner-div {
+  margin-left: -11rem;
+}
+
+.what-img-sixth {
+  margin-top: 30px;
+  /* margin-left: 9rem; */
+  max-width: 550px;
+  max-height: 342px;
+  height: 100%;
+}
+
+.sixth-logo {
+  position: relative;
+}
+
+.sixth-logo img {
+  position: absolute;
+}
+
+#sixth-page-logo {
+  margin-top: 6rem;
+  margin-left: 9rem;
+}
+
+/* #sixth-page-vect {
+  margin-top: -6rem;
+  margin-left: 17rem;
+} */
+
+.linear-gradient-sixth {
+  background-image: linear-gradient(to left, rgba(102, 187, 106, 1), rgba(102, 187, 106, 0));
+  max-width: 652px;
+  height: 299px;
+  margin-left: 5rem;
+  /* margin-top: 18rem; */
+  position: relative;
+  padding: 4rem;
+  box-sizing: border-box;
+  padding-left: 6rem;
+  margin-right: -30px;
+}
+
+.like {
+  font-family: "GT America", sans-serif;
+  font-size: 32px;
+  font-weight: 275;
+  letter-spacing: 0;
+  text-align: left;
+  margin-bottom: 1.2rem;
+}
+
+.contact {
+  font-family: "GT America", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 50px;
+  line-height: 0px;
+}
+
+.us-content {
+  font-family: "GT America", sans-serif;
+  font-style: italic;
+  font-size: 50px;
+}
+
+/* refactoring */
+
+.sixthpage-first-inner-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 40px;
+}
+
+.they-talking {
+  position: absolute;
+  top: 30px;
+  left: 90px;
+  font-family: "GT America", sans-serif;
+  color: #a4a4a4;
+
+  z-index: -1;
+}
+
+.they-talink__big {
+  margin: 0;
+  padding: 0;
+  font-size: 8.815vw;
+  /* font-size: 7.815vw; */
+  font-weight: 900;
+  line-height: 0.8;
+}
+
+.they-talking__small {
+  font-size: 5vw;
+  line-height: 1;
+}
+
+.talking-thin {
+  font-weight: 400;
+}
+
+.sixthpage-third-inner-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.sixth-logo {
+  position: absolute;
+  bottom: 95%;
+  left: 0;
+  width: 20vw;
+}
+.sixth-logo img {
+  width: 100%;
+  position: static;
+}
+
+.what-happens__title {
+  font-size: 9vw;
+  font-weight: 900;
+  line-height: 0.8;
+  text-align: right;
+}
+
+.what-happens__thin {
+  font-weight: 700;
+  font-size: 5vw;
+  display: block;
+}
+
+.mobile-contact {
+  display: none;
+}
+
+.sixth-logo.mobile-six-logo {
+  position: static;
+}
+@media (max-width: 1440px) {
+  .sixthpage-second-inner-div {
+    width: 214px;
+    margin-left: -5rem;
+  }
+  .sixthpage-second-inner-div img {
+    width: 100%;
+    height: 100%;
+  }
+  .like {
+    font-size: 22px;
+  }
+  .contact {
+    font-size: 35px;
+  }
+  .linear-gradient-sixth {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .linear-gradient-sixth {
+    max-height: 282px;
+    height: auto;
+  }
+}
+
+@media (max-width: 998px) {
+  .sixthpage-second-inner-div {
+    display: none;
+  }
+  .sixth-page-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .they-talking {
+    display: none;
+  }
+  .sixthpage-third-inner-div {
+    order: -1;
+  }
+  .linear-gradient-sixth {
+    display: none;
+  }
+  .mobile-contact {
+    display: block;
+  }
+  .what-happens {
+    position: relative;
+    width: 100%;
+    padding-right: 1rem;
+  }
+  .sixth-logo {
+    display: none;
+  }
+  .sixth-logo.mobile-six-logo {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .linear-gradient-sixth.mobile-contact {
+    margin-right: -1rem;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact{
+    order: -1;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 576px){
+  .linear-gradient-sixth.mobile-contact{
+    max-height: 138px;
+    background-image: linear-gradient(to top, rgba(102, 187, 106, 1), rgba(102, 187, 106, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contact,
+  .us-content{
+    font-size: 35px;
+  }
+  .like{
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .sixth-page-container {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .sixth-logo.mobile-six-logo {
+    display: none;
+  }
+}
+

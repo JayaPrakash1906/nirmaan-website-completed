@@ -1,0 +1,25 @@
+.start-up-interaction {
+  display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
+  /* padding-right: calc(3.4vw + 1rem); */
+}
+
+.checkbox-margin {
+  margin-top: 2rem;
+  margin-left: 26px;
+}
+
+.search-container {
+  margin-top: -2rem;
+  margin-left: 2.5rem;
+}
+
+.searched-container-div{
+  margin-left: 4rem;
+}
+
+a:link, a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}

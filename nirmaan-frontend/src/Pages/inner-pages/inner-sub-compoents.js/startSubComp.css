@@ -1,0 +1,91 @@
+.sp-flex {
+  display: flex;
+}
+
+.green-sp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 146.21px;
+  height: 146.21px;
+  border-radius: 10px;
+  border: 4px;
+  transform: rotate(110.44deg);
+  background-color: rgba(143, 255, 149, 1);
+}
+
+.green-sp img {
+  transform: rotate(-110.44deg);
+}
+
+.sub-right-sp {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: last baseline;
+  margin-left: 45px;
+}
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .sub-right-sp {
+    flex-direction: column; /* Change to column layout for mobile */
+    justify-content: flex-start; /* Align items to start vertically for mobile */
+    align-items: flex-start; /* Align items to start horizontally for mobile */
+    margin-left: 0; /* Remove margin for mobile */
+  }
+}
+
+.strat-up-heading {
+  font-family: "GT America";
+  font-size: 30px; /* Default font size for web */
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.startup-content {
+  margin-top: 0.2rem;
+  max-width: 503px;
+  width: 100%;
+  min-height: 102px;
+  font-family: "GT America";
+  font-size: 28px; /* Default font size for web */
+  font-weight: 300;
+  line-height: 28px;
+  padding-right: 3rem; /* Default padding for web */
+  box-sizing: border-box;
+}
+
+.third-sub-comp-prop {
+  width: 100%; /* Default width for mobile */
+}
+
+/* Media query for tablets and larger devices */
+@media (min-width: 768px) {
+  .startup-content {
+    font-size: 28px; /* Increase font size for tablets */
+    padding-right: 4rem; /* Increase padding for tablets */
+  }
+
+  .third-sub-comp-prop {
+    width: 700px; /* Adjust width for tablets */
+  }
+}
+
+/* Media query for desktops and larger devices */
+@media (min-width: 1024px) {
+  .startup-content {
+    font-size: 20px; /* Increase font size for desktops */
+    padding-right: 5rem; /* Increase padding for desktops */
+  }
+
+  .third-sub-comp-prop {
+    width: 700px; /* Adjust width for desktops */
+  }
+}
+
+@media (max-width: 768px) {
+  .strat-up-heading {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,70 @@
+.they-block {
+  max-width: 765px;
+  width: 100%;
+  border-radius: 145.5px 0px 145.5px 0px;
+  background-color: #b3b3b3;
+  font-family: "GT America", sans-serif;
+  font-size: 22px;
+}
+.they-block__top {
+  background-color: #fff;
+  padding: 53px 55px 33px 50px;
+  border-radius: 145.5px 0px 145.5px 0px;
+}
+
+.they-block__bottom {
+  display: flex;
+  align-items: center;
+  padding: 10px 40px 20px 40px;
+}
+
+.they-block__name {
+  font-size: 32px;
+  margin: 0;
+  line-height: 1;
+}
+
+.they-block__subtitle {
+  font-weight: 500;
+  margin: 0;
+  line-height: 1;
+}
+
+@media (max-width: 1440px) {
+  .they-block__top {
+    padding: 25px 48px 18px 48px;
+    border-radius: 106.5px 0px 145.5px 0px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .they-block {
+    font-size: 16px;
+  }
+  .they-block__name {
+    font-size: 18px;
+  }
+  .they-block__bottom {
+    padding: 7px 28px 8px 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .they-block__bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .they-block {
+    border-radius:  0px 145.5px 0px 145.5px ;
+  }
+
+  /* .they-block__top {
+    border-radius: 106.5px 0px 145.5px 0px;
+  } */
+  .they-block__top {
+    border-radius: 0px 106.5px 0px 145.5px;
+  }
+  .they-block__bottom{
+    padding: 14px 20px 24px;
+  }
+}

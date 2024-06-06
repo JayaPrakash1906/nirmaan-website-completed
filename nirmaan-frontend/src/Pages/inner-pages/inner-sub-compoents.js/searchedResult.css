@@ -1,0 +1,133 @@
+.searched-result-main {
+  display: flex;
+  max-width: 100%;
+  /* height: 203px; */
+  background-color: #d9d9d940;
+  margin: 5rem 1rem 5rem 0;
+}
+
+.searched-img {
+  /* width: 284px;
+  height: 200px; */
+  width: 200px;
+  border-radius: 18px;
+}
+
+.searched-project-content-main {
+  display: flex;
+  margin-left: 3rem;
+  margin-top: 1.4rem;
+  box-sizing: border-box;
+}
+
+.sr-name {
+  box-sizing: border-box;
+  font-family: "GT America";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.sr-content {
+  max-width: 100%;
+  /* height: 108px; */
+  margin-top: 2rem;
+  font-family: "GT America";
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 1rem;
+}
+
+.button-div {
+  width: 231px;
+  height: 81px;
+  top: 437px;
+  left: 1643px;
+  border-radius: 0px 40.5px 0px 40.5px;
+  background-color: black;
+  box-shadow: 8px 8px 6px 0px #00000033;
+  color: white;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 27px;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 3rem 2rem 0 2rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.button-div:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #66bb6a;
+}
+
+
+
+@media (max-width:1440px){
+  .searched-project-content-main {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .searched-container-div{
+    margin-left: 0;
+  }
+  .checkbox-margin{
+    margin-left: 1rem;
+  }
+  .sr-content{
+    padding-right: 1rem;
+  }
+  .search-container{
+    margin-left: 1rem;
+  }
+  .searched-result-main > div{
+    display: flex;
+    align-items: center;
+  }
+  .searched-result-main{
+    margin: 2rem 1rem 2rem 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+}
+
+@media (max-width:768px){
+  .searched-result-main{
+    margin: 1rem 0 0;
+  }
+  .start-up-interaction{
+    padding-top: 3rem;
+    position: relative;
+  }
+  .checkbox-margin {
+    position: absolute!important;
+    top: 3rem;
+    z-index: 100;
+  }
+  .searched-img{
+    max-width: 280px;
+    width: 100%;
+  }
+  .sr-name{
+    font-size: 28px;
+    margin-top: 1rem;
+  }
+  .sr-content{
+    font-size: 18px;
+  }
+  .searched-project-content-main{
+    margin: 0;
+  }
+  .searched-container-div{
+    margin-top: 4rem;
+  }
+  .search-bar{
+    padding-right: 1rem;
+  }
+}

@@ -1,0 +1,106 @@
+.card-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 440px;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  padding: 74px 74px 45px;
+  background-color: white;
+}
+
+.card-heading-wrapper {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card-for,
+.card-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.card-content:not(:last-child) {
+  margin-bottom: 5px;
+}
+.card-contents {
+  font-family: "GT America", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+
+.card-apply {
+  width: 237px;
+  height: 45px;
+  border-radius: 0px 40.5px 0px 40.5px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "GT America";
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 19px;
+  padding-top: 0.7rem;
+  box-shadow: 8px 8px 6px 0px rgba(0, 0, 0, 0.2);
+  margin-top: auto;
+  margin-bottom: 40px;
+}
+
+.intern-with {
+  width: 288px;
+  height: 45px;
+  border-radius: 0 40.5px 0 40.5px;
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 0.7rem;
+  margin-top: 3rem;
+  /* margin-left: 5rem; */
+  font-family: "GT America";
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 19px;
+  box-shadow: 8px 8px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.intern-active {
+  background-color: rgba(103, 188, 107, 1);
+}
+
+
+@media (max-width:1440px){
+  .card-main{
+    padding: 2rem;
+  }
+  .card-contents{
+    font-size: 18px;
+  }
+}
+
+@media (max-width:1200px){
+  .sub-sp-green{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width:576px){
+  .intern-with{
+    font-size: 18px;
+    max-width: 255px;
+  }
+  .card-apply{
+    font-size: 18px;
+  }
+}

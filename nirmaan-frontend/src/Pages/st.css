@@ -1,0 +1,27 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.panel {
+  box-sizing: border-box;
+}
+
+.pin-spacer .container {
+  padding: 0 !important;
+}
+
+/* .container-sliders{
+    padding-left: 0!important;
+} */
+
+@media (min-width: 1000px) {
+  .panel {
+    height: 100vh;
+  }
+}

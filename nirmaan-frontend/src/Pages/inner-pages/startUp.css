@@ -1,0 +1,255 @@
+.sp-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.startup-heading {
+  margin-left: 110px;
+}
+.startup-what {
+  margin-bottom: 0.5rem;
+  max-width: 732px;
+  max-height: 240px;
+}
+.startup-what img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.startup-we-provide {
+  max-width: 650px;
+  width: 100%;
+  max-height: 158px;
+}
+
+.startup-we-provide img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+.logo-sp,
+.nir-sp {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo-sp {
+  width: 21.2vw;
+  left: 9vw;
+  min-width: 150px;
+}
+
+.nir-sp {
+  width: 12.92vw;
+  min-width: 100px;
+  left: 33vw;
+}
+
+.startup-logo {
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+}
+.startup-logo .dotted-sp {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sp-content {
+  margin-left: 110px;
+  margin-bottom: 7rem;
+  max-width: 672px;
+  width: 100%;
+  min-height: 238px;
+  font-family: "GT America";
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 34px;
+  margin-top: 3rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+/* right div  */
+
+.sp-right {
+  /* border: 5px solid black; */
+  position: relative;
+  max-width: 963px;
+  width: 100%;
+}
+
+.sp-left {
+  max-width: 963px;
+  width: 100%;
+}
+.sp-grey {
+  /* border: 5px solid black; */
+  width: 56rem;
+  height: 1065px;
+  border-radius: 80px;
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.sp-white {
+  /* border: 5px solid black; */
+  /* position: absolute; */
+  width: 100%;
+  margin-top: 2.5rem;
+  /* height: 983px; */
+  border-radius: 80px;
+  background-color: white;
+  border: calc(1.78vw + 1rem) solid rgba(217, 217, 217, 1);
+}
+
+.sp-sub-img {
+  width: 100%;
+  min-height: 230px;
+  box-sizing: border-box;
+  padding-left: 4rem;
+  padding-top: 2.5rem;
+  margin-top: 1rem;
+}
+
+/* second section css  */
+
+.second-green-section {
+  background: linear-gradient(
+    90deg,
+    #2e9635 -0.29%,
+    #66bb6a 11.2%,
+    #66bb6a 51.32%,
+    #66bb6a 89.3%,
+    #2e9635 100%
+  );
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.sub-sp-green {
+  /* margin-left: 2rem; */
+  padding: 50px 2rem 45px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1549px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sp-cards {
+  /* margin: 3rem 5rem 0 3rem; */
+}
+
+/* last div  */
+.last-div-sp {
+  display: flex;
+  justify-content: space-between;
+  max-height: 522px;
+  height: 100%;
+  background-color: rgba(157, 157, 157, 1);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  gap: 10vw;
+}
+
+.last-div-sp__img-box:nth-child(1) {
+  max-width: 282px;
+  width: 100%;
+}
+.last-div-sp__img-box:nth-child(2) {
+  max-width: 957px;
+  width: 100%;
+  min-width: 250px;
+}
+.last-div-sp__img-box:nth-child(3) {
+  max-width: 282px;
+  width: 100%;
+}
+.last-div-sp__img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sp-white .sp-sub-img:nth-child(even) {
+  background-color: rgba(217, 217, 217, 0.25);
+}
+
+@media only screen and (max-width: 1333px) {
+  .sp-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sp-right {
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .startup-content {
+    padding-right: 0;
+    font-size: 12px;
+    line-height: 1;
+  }
+  .sp-right {
+    margin: 0;
+  }
+  .sp-white {
+    border: 0.5rem solid rgba(217, 217, 217, 1);
+  }
+  .sp-content {
+    margin: 0;
+    padding: 1rem;
+    font-size: 22px;
+  }
+
+  .nir-sp {
+    left: 68vw;
+  }
+  .sub-right-sp {
+    margin-left: 0;
+    max-width: 75%;
+  }
+  .sp-flex {
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .sp-sub-img {
+    margin: 0;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .green-sp img {
+    width: 45px;
+  }
+
+  .green-sp {
+    height: 80px;
+    width: 80px;
+  }
+  .startup-heading {
+    margin: 0 2rem;
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sub-right-sp {
+    max-width: 75%;
+  }
+}
+@media (max-width: 406px) {
+  .sub-right-sp {
+    max-width: 45%;
+  }
+}
