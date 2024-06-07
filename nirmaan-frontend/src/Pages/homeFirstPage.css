@@ -72,7 +72,7 @@ body {
   display: flex;
   /* justify-content: space-between; */
   margin-top: 2.313rem;
-  width: 95%;
+  width: 85%;
 }
 
 .this-is-img img {
@@ -80,7 +80,7 @@ body {
   margin-left: 8.6vw;
   margin-top: 9.6vh;
   max-width: 24vw;
-  width: 80%;
+  width: 50%;
 }
 
 .subtitle-styling-fp {
@@ -89,7 +89,7 @@ body {
 
 .sub-heading-first {
   font-family: "GT America", sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 44px;
 }
@@ -115,7 +115,7 @@ body {
 
 .logo img {
   margin-left: 5vw;
-  max-width: 24.7vw;
+  max-width: 20.7vw;
   width: 100%;
 }
 

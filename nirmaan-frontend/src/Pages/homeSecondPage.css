@@ -46,7 +46,7 @@ body {
   margin-top: 15px;
 }
 .who-heading h1 {
-  font-size: 100px;
+  font-size: 90px;
   font-weight: 790;
   line-height: 0.8;
   color: #000;
@@ -67,7 +67,7 @@ body {
   background-color: #66bb6a;
   color: #fff;
   font-family: "GT America", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 44px;
   letter-spacing: 0em;
@@ -102,7 +102,7 @@ body {
   font-weight: 300;
   line-height: 29px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: justify;
   background-color: #ffffff;
   max-width: 1028px;
   width: 100%;
@@ -146,7 +146,7 @@ body {
 
 @media (max-width: 1440px) {
   .who-heading h1 {
-    font-size: 114px;
+    font-size: 70px;
   }
   .who-heading {
     /* max-height: 250px; */
